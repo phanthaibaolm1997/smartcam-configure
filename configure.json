@@ -1,0 +1,110 @@
+{
+  "servers": [
+    {
+      "name": "Mekong",
+      "value": "https://app.mekongsmartcam.vn"
+    },
+    {
+      "name": "Smartcam",
+      "value": "https://smartcam.vnpttiengiang.vn"
+    },
+    {
+      "name": "Tây Ninh",
+      "value": "https://camantt.tayninh.gov.vn"
+    },
+    {
+      "name": "Lâm Đồng",
+      "value": "https://camgiaothong.dalat.vn"
+    }
+  ],
+  "notification": {
+    "type": [
+      {
+        "name": "Xâm nhập",
+        "value": "security"
+      },
+      {
+        "name": "Biển số Blacklist",
+        "value": "license_plate_blacklist"
+      },
+      {
+        "name": "Facerec",
+        "value": "facerec_rule_id"
+      },
+      {
+        "name": "Person Blacklist",
+        "value": "facerec_person_blacklist"
+      },
+      {
+        "name": "Camera mất tín hiệu",
+        "value": "camera_stream_lost"
+      },
+      {
+        "name": "Cảnh báo kẹt xe",
+        "value": "traffic_jam"
+      }
+    ]
+  },
+  "trafsec": {
+    "vehicleType": [
+      {
+        "name": "Xe bus",
+        "value": "bus"
+      },
+      {
+        "name": "Xe hơi",
+        "value": "car"
+      },
+      {
+        "name": "Xe máy",
+        "value": "motorbike"
+      },
+      {
+        "name": "Xe tải",
+        "value": "truck"
+      }
+    ],
+    "ruleList": [
+      {
+        "name": "Chụp biển số",
+        "code": "lpc"
+      },
+      {
+        "name": "Đỗ xe quá thời gian",
+        "code": "paa"
+      },
+      {
+        "name": "Lấn làn",
+        "code": "lvn"
+      },
+      {
+        "name": "Ngược chiều",
+        "code": "wdn"
+      },
+      {
+        "name": "Lối cho người đi bộ",
+        "code": "pck"
+      },
+      {
+        "name": "Vượt đèn đỏ",
+        "code": "rlt"
+      },
+      {
+        "name": "Vùng cấm",
+        "code": "rae"
+      },
+      {
+        "name": "Giới hạn tốc độ",
+        "code": "slt"
+      },
+      {
+        "name": "Không đội mũ",
+        "code": "nht"
+      },
+      {
+        "name": "Chở quá số người",
+        "code": "pog"
+      }
+    ]
+  }
+}
